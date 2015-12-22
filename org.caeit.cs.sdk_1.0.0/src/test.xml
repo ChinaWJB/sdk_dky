@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Body name="bbbbb"> 
+  <appender name="default" class="org.apache.log4j.ConsoleAppender">
+    <param name="target" value="System.out"/>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="[%p] %d{dd MMM hh:mm:ss.SSS aa} %t [%c]%n%m%n%n"/>
+    </layout>
+  </appender>
+
+  <appender name="outFile" class="org.apache.log4j.FileAppender">
+    <param name="File" value="./logs/log.log"/>
+    <param name="Append" value="true"/>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="[%p] %d{dd MMM hh:mm:ss.SSS aa} %t [%c]%n%m%n%n"/>
+    </layout>
+  </appender>
+ <center_IP>70.1.1.55</center_IP>  
+ <center_Port>5001</center_Port>  
+ <path>D:/</path>  
+ <fPath>F:\\</fPath>  
+ <mon_UDPLSN_PORT>4800</mon_UDPLSN_PORT>  
+ <!-- 接收代理发过来的消息 -->  
+ <HostIP>70.1.1.55</HostIP>  
+ <liminal name="cccccc"> 
+  <cpu>90</cpu>  
+  <ram>100</ram>  
+  <hdd>100</hdd> 
+ </liminal> 
+</Body>
